@@ -48,6 +48,8 @@ void draw_square(Xuint32 BaseAddress){
 				else{
 					VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + i*4, 0x0);
 				}
+
+
 			}
 		}
 }
